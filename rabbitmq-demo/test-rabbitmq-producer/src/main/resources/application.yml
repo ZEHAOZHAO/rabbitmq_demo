@@ -1,0 +1,11 @@
+server:
+  port: 8889
+spring:
+  application:
+    name: test-rabbitmq-producer
+  rabbitmq:
+    host: 192.168.46.138
+    port: 5672
+    username: zzhmq
+    password: zzhmq
+    virtualHost: /
